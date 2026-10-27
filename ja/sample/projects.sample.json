@@ -1,0 +1,9 @@
+{
+  "projects": [
+    { "name": "prototype-notes",  "plan": "free", "lastDumpAt": "2026-10-20", "lastRestoreTestAt": "2026-10-20", "hasStorageFiles": false },
+    { "name": "old-experiment",   "plan": "free", "hasStorageFiles": true, "filesBackedUp": false },
+    { "name": "team-wiki",        "plan": "pro",  "compute": "micro", "pitr": false, "lastRestoreTestAt": "2026-09-10", "hasStorageFiles": true, "filesBackedUp": false },
+    { "name": "customer-portal",  "plan": "pro",  "compute": "micro", "pitr": true, "pitrDays": 7, "hasStorageFiles": false },
+    { "name": "billing-core",     "plan": "team", "compute": "medium", "pitr": true, "pitrDays": 14, "lastRestoreTestAt": "2026-10-15", "hasStorageFiles": true, "filesBackedUp": true }
+  ]
+}

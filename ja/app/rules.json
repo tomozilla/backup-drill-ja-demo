@@ -1,0 +1,8 @@
+{
+  "asOf": "2026-10-27",
+  "source": "https://supabase.com/docs/guides/platform/backups and https://supabase.com/pricing (read by hand; check again before relying on any number)",
+  "dailyBackupDays": { "free": 0, "pro": 7, "team": 14 },
+  "pitr": { "minCompute": "small", "worstCaseMinutes": 2, "usdPerMonth": { "7": 100, "14": 200, "28": 400 }, "stopsDailyBackups": true },
+  "computeOrder": ["nano", "micro", "small", "medium", "large", "xl"],
+  "limits": { "freeDumpWarnDays": 7, "restoreTestWarnDays": 90 }
+}
